@@ -38,6 +38,8 @@
 
 .cloudplayer {
   margin: 20px;
+  width: 500px;
+  height: 140px;
 }
 
 .subscribe {
@@ -93,3 +95,29 @@ a:hover {
   font-weight: 300;
   font-size: 14px;
 }*/
+
+@media screen and (max-width:770px){
+  .main{
+    width: 100%;
+  }
+
+  .title{
+    width: 220px;
+  }
+
+  .tagline {
+    font-size: 14px;
+  }
+
+  .cloudplayer{
+    width: 80%;
+  }
+
+  .takashi{
+    width: 0;
+  }
+
+  .nikhil{
+    width: 0;
+  }
+}
